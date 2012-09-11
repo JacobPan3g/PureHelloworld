@@ -13,6 +13,7 @@
 		60DDA83F15FF6700009292FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DDA83D15FF6700009292FC /* InfoPlist.strings */; };
 		60DDA84115FF6700009292FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DDA84015FF6700009292FC /* main.m */; };
 		60DDA84515FF6700009292FC /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DDA84415FF6700009292FC /* JPAppDelegate.m */; };
+		60DDA84D15FF7579009292FC /* JPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DDA84C15FF7579009292FC /* JPRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		60DDA84215FF6700009292FC /* PureHelloworld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PureHelloworld-Prefix.pch"; sourceTree = "<group>"; };
 		60DDA84315FF6700009292FC /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
 		60DDA84415FF6700009292FC /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		60DDA84B15FF7579009292FC /* JPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPRootViewController.h; path = Views/JPRootViewController.h; sourceTree = "<group>"; };
+		60DDA84C15FF7579009292FC /* JPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPRootViewController.m; path = Views/JPRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				60DDA84315FF6700009292FC /* JPAppDelegate.h */,
 				60DDA84415FF6700009292FC /* JPAppDelegate.m */,
+				60DDA84B15FF7579009292FC /* JPRootViewController.h */,
+				60DDA84C15FF7579009292FC /* JPRootViewController.m */,
 				60DDA83B15FF6700009292FC /* Supporting Files */,
 			);
 			path = PureHelloworld;
@@ -155,6 +160,7 @@
 			files = (
 				60DDA84115FF6700009292FC /* main.m in Sources */,
 				60DDA84515FF6700009292FC /* JPAppDelegate.m in Sources */,
+				60DDA84D15FF7579009292FC /* JPRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
