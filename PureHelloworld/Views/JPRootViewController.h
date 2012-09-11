@@ -10,4 +10,6 @@
 
 @interface JPRootViewController : UIViewController
 
+- (void)buttonAction;
+
 @end
