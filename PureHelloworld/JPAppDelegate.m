@@ -21,8 +21,8 @@
 //    [helloLabel setBackgroundColor:[UIColor redColor]];
 //    [self.window addSubview:helloLabel];
     
-    JPRootViewController *rootViewController = [[JPRootViewController alloc] init];
-    [self.window addSubview:rootViewController.view];
+    self.rootViewController = [[JPRootViewController alloc] init];
+    [self.window addSubview:self.rootViewController.view];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

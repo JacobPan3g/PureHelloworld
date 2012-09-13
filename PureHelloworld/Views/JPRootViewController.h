@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JPRootViewController : UIViewController
+@class JPLevel1ViewController;
+@class JPMyViewController;
 
-- (void)buttonAction;
+@interface JPRootViewController : UIViewController
+{
+    UIButton *button;
+    UIButton *tableviewBtn;
+    UIButton *navigationBtn;
+    UIButton *TabbarBtn;
+}
+
+@property (strong, nonatomic) UINavigationController *narController;
+@property (strong, nonatomic) UITabBarController *tabbarController;
+@property (strong, nonatomic) JPLevel1ViewController *level1ViewController;
+@property (strong, nonatomic) JPMyViewController *tableViewController;
 
 @end
