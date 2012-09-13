@@ -7,6 +7,7 @@
 //
 
 #import "JPAppDelegate.h"
+#import "JPRootViewController.h"
 
 @implementation JPAppDelegate
 
@@ -14,11 +15,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UILabel *helloLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 10, 200, 100)];
-    [helloLabel setText:@"Hello World!"];
-    [helloLabel setTextAlignment:UITextAlignmentCenter];
-    [helloLabel setBackgroundColor:[UIColor redColor]];
-    [self.window addSubview:helloLabel];
+//    UILabel *helloLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 10, 200, 100)];
+//    [helloLabel setText:@"Hello World!"];
+//    [helloLabel setTextAlignment:UITextAlignmentCenter];
+//    [helloLabel setBackgroundColor:[UIColor redColor]];
+//    [self.window addSubview:helloLabel];
+    
+    self.rootViewController = [[JPRootViewController alloc] init];
+    [self.window addSubview:self.rootViewController.view];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
